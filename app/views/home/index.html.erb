@@ -1,12 +1,16 @@
-<section class="text-bg-primary bg-gradient">
-  <div class="container py-5">
-    <div class="row row-cols-1 row-cols-md-2">
-      <div class="col">
-        <h1 class="display-3">Rails Blog</h1>
-        <p>Simple blog menggunakan Ruby on Rails v7</p>
+<%= render 'layouts/partials/hero' %>
+<main class="container py-3">
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+    <% for i in 0..8 do %>
+      <div class="col d-flex my-2">
+        <div class="card">
+          <div class="card-body p-4">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
       </div>
-      <div class="col">
-      </div>
-    </div>
+    <% end %>
   </div>
-</section>
+</main>
