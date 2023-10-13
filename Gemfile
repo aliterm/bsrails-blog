@@ -80,3 +80,5 @@ gem "prettier_print", "~> 1.2"
 gem "syntax_tree", "~> 6.2"
 gem "syntax_tree-haml", "~> 4.0"
 gem "syntax_tree-rbs", "~> 1.0"
+
+gem "rubocop", "~> 1.57", require: false
